@@ -7,7 +7,8 @@ This repo contains two folder:
 
 ## Code
 Folder contents:
-* Kokoro-82M - TTS model in onnx type.
+* Kokoro-82M-v1.0-ONNX - TTS model in onnx type.  
+    * Download the model from huggingface (https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/tree/main)
 * mapping.json - Mapping tokens for TTS.
 * tts.py - FastAPI script
 * Dockerfile - For dockerization.
