@@ -1,0 +1,14 @@
+version: '1'
+
+services:
+  llm_api:
+    container_name: tts
+    image: tts:kokoro
+    command: uvicorn tts:app --host 0.0.0.0 --port 5011 --reload --log-level debug
+    ports:
+      - 5011:5011
+    environment:
+      - HOST=0.0.0.0
+      - PORT=5011
+    volumes:
+      - ./config:/app/config

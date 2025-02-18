@@ -1,0 +1,13 @@
+fastapi
+pydantic
+numpy
+onnxruntime
+num2words
+spacy
+phonemizer-fork
+espeakng
+misaki[en]
+espeakng_loader
+uvicorn
+requests
+scipy
