@@ -49,6 +49,7 @@ curl -X GET "http://localhost:5011/model_info"
 ```
 
 * /generate_audio - Main API
+    * **--output generate_audio.wav**: the output audio file to the current directory.
 ```bash
 // Example
 curl -X POST "http://localhost:5011/generate_audio" \
